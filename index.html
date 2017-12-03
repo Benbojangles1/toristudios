@@ -1,25 +1,124 @@
 <!DOCTYPE html>
 <html>
 
+<head>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
 
 <body>
+<a name="top"></a>
 <img src="ToriWebTopper.png" >
 
 
   </div>
  </div>
 
-<h1><font face="courier" color="white">Nothing. Absolutely Nothing.</font></h1>
 
-<iframe src="https://discordapp.com/widget?id=309051781973803010&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" align="right"></iframe>
 
+
+
+<div class="content">
+
+ <div class="row">
+ 
+ 
+ 
+        <div class="col s6">
+          <div class="card">
+            <div class="card-image">
+              <img src="https://toandfroshow.files.wordpress.com/2017/01/main-qimg-e8775e2010b55a64602cf71d29f79d1f-c.jpeg">
+              <span class="card-title">Not Much To See Here</span>
+            </div>
+            <div class="card-content">
+              <p>There's nothing to see yet! We will be adding more content soon!</p>
+            </div>
+            
+          </div>
+        </div>
+		
+		<div class="col s6" float="right">
+          <div class="card">
+            <div class="card-image">
+              <img src="https://assets.wired.com/photos/w_1333/wp-content/uploads/2015/11/shruggie-new-orange-S.jpg">
+              <span class="card-title">Not Much To See Here</span>
+            </div>
+            <div class="card-content">
+              <p>There's nothing to see yet! We will be adding more content soon!</p>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+	  
+
+
+
+	<ul class="collapsible" data-collapsible="accordion">
+	
+	
+	
+	
+	<li>
+      <div class="header" ><h3 align="left">Our Staff</h1></div>
+      
+    </li>
+    <li>
+      <div class="collapsible-header" ><i class="material-icons" >event_seat</i>Benbojangles</div>
+      <div class="collapsible-body"><span>Benbojangles is the owner and founder of Tori Studios.</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">gamepad</i>Eqic</div>
+      <div class="collapsible-body"><span>Eqic is the head admin of Tori Studios..</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">gavel</i>Dragzii</div>
+      <div class="collapsible-body"><span>Dragzii is one of our moderators for the Discord server.</span></div>
+    </li>
+	<li>
+      <div class="collapsible-header"><i class="material-icons">person_add</i>This could be you!</div>
+      <div class="collapsible-body"><span>We are in need of moderators and admins, so you have a chance to join the staff team!</span></div>
+    </li>
+  </ul>
+</div>
+
+
+  
+<iframe src="https://discordapp.com/widget?id=309051781973803010&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" align="right" class="sidebar"></iframe>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+<div class="fixed-action-btn">
+    <a class="btn-floating btn-large red">
+      <i class="large material-icons">radio_button_unchecked</i>
+    </a>
+    <ul>
+      <li><a href="#top" class="btn-floating red"><i class="material-icons">arrow_upward</i></a></li>
+      <li><a href="#bottom" class="btn-floating yellow darken-1"><i class="material-icons">arrow_downward</i></a></li>
+    
+    </ul>
+  </div>
+
+<script>
+$(document).ready(function(){
+    $('ul.tabs').tabs();
+  });
+  
+  
+</script>
+<a name="bottom"></a>
 </body>
-<style>
+
+
+<style type="text/css">
+   
    body, html, img {    
     margin: 0 !important;
     padding: 0 !important;
-    background: linear-gradient(#262728, #262728); /* Standard syntax */
+    background-color: #262728;
 	background-repeat: repeat;
 	background-size: cover;
 	height: 100%;
@@ -30,9 +129,38 @@ body {
     overflow-x: hidden !important;
 }
 
- 
+
+	.content {
 	
+		padding-right: 25px;
+		padding-left: 100px;
+		float: left;
+		width: 75%;
 	
+	}
+	
+	.collapsible-body {
+	
+	background-color: #ffffff;
+	
+	}
+	
+	.collapsible {
+	
+		background-color: #ffffff;
+		float: bottom;
+	
+	}
+	
+	.sidebar {
+		float: right;
+	}
+	
+	.our_staff {
+		background-color: #ffffff;
+		text-color: #000000;
+		border-radius: 25px;
+	}
 </style>
 
 </html>
